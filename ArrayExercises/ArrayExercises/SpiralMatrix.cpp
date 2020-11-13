@@ -25,8 +25,7 @@
 * Now, while a human can find it relatively easy to trace the pattern, the computer needed some more clarification than I thought. :D
 * The code ended up being not as straightforward or easy readable, but it has two main advantages:
 * - it doesn't alter the matrix (nor instantiates a copy): the challenge was to only instruct the computer where to read from, not altering anything from the content;
-* -
-*
+* - although I'm using vectors, I don't actually utilize any member methods of the STL class, I just don't like reserving extra unnecessary space when not needed :D
 */
 #include <iostream>
 #include <vector>
